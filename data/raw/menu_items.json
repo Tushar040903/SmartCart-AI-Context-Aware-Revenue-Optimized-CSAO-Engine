@@ -1,0 +1,1776 @@
+[
+  {
+    "item_id": "item_001",
+    "name": "Chicken Biryani",
+    "category": "main_course",
+    "cuisine": "North Indian",
+    "price": 299,
+    "is_veg": false,
+    "kpt_minutes": 20,
+    "margin_pct": 0.55,
+    "popularity_score": 0.95,
+    "description": "Fragrant basmati rice cooked with tender chicken and aromatic spices",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_002",
+    "name": "Paneer Butter Masala",
+    "category": "main_course",
+    "cuisine": "North Indian",
+    "price": 249,
+    "is_veg": true,
+    "kpt_minutes": 15,
+    "margin_pct": 0.6,
+    "popularity_score": 0.9,
+    "description": "Creamy tomato-based curry with soft paneer cubes",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_003",
+    "name": "Margherita Pizza",
+    "category": "main_course",
+    "cuisine": "Italian",
+    "price": 249,
+    "is_veg": true,
+    "kpt_minutes": 12,
+    "margin_pct": 0.58,
+    "popularity_score": 0.88,
+    "description": "Classic Italian pizza with fresh mozzarella and basil",
+    "available_sizes": [
+      "Regular",
+      "Large"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_004",
+    "name": "Veg Hakka Noodles",
+    "category": "main_course",
+    "cuisine": "Chinese",
+    "price": 179,
+    "is_veg": true,
+    "kpt_minutes": 10,
+    "margin_pct": 0.55,
+    "popularity_score": 0.82,
+    "description": "Stir-fried noodles tossed with fresh vegetables and soy sauce",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_005",
+    "name": "Masala Dosa",
+    "category": "main_course",
+    "cuisine": "South Indian",
+    "price": 129,
+    "is_veg": true,
+    "kpt_minutes": 8,
+    "margin_pct": 0.62,
+    "popularity_score": 0.85,
+    "description": "Crispy crepe filled with spiced potato masala",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_006",
+    "name": "Butter Chicken",
+    "category": "main_course",
+    "cuisine": "North Indian",
+    "price": 299,
+    "is_veg": false,
+    "kpt_minutes": 18,
+    "margin_pct": 0.54,
+    "popularity_score": 0.93,
+    "description": "Tender chicken in a rich buttery tomato cream sauce",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_007",
+    "name": "Chole Bhature",
+    "category": "main_course",
+    "cuisine": "North Indian",
+    "price": 149,
+    "is_veg": true,
+    "kpt_minutes": 10,
+    "margin_pct": 0.6,
+    "popularity_score": 0.8,
+    "description": "Spicy chickpea curry served with fluffy deep-fried bread",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_008",
+    "name": "Veg Burger",
+    "category": "main_course",
+    "cuisine": "Continental",
+    "price": 129,
+    "is_veg": true,
+    "kpt_minutes": 8,
+    "margin_pct": 0.52,
+    "popularity_score": 0.75,
+    "description": "Crispy vegetable patty in a soft bun with fresh veggies",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_009",
+    "name": "Chicken Burger",
+    "category": "main_course",
+    "cuisine": "Continental",
+    "price": 159,
+    "is_veg": false,
+    "kpt_minutes": 8,
+    "margin_pct": 0.5,
+    "popularity_score": 0.78,
+    "description": "Juicy grilled chicken patty in a toasted bun",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_010",
+    "name": "Pasta Alfredo",
+    "category": "main_course",
+    "cuisine": "Italian",
+    "price": 199,
+    "is_veg": true,
+    "kpt_minutes": 10,
+    "margin_pct": 0.57,
+    "popularity_score": 0.76,
+    "description": "Creamy white sauce pasta with herbs and parmesan",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_011",
+    "name": "Maggi",
+    "category": "main_course",
+    "cuisine": "Street Food",
+    "price": 99,
+    "is_veg": true,
+    "kpt_minutes": 5,
+    "margin_pct": 0.65,
+    "popularity_score": 0.72,
+    "description": "The classic instant noodles loved by all, masala flavour",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_012",
+    "name": "Chicken Fried Rice",
+    "category": "main_course",
+    "cuisine": "Chinese",
+    "price": 219,
+    "is_veg": false,
+    "kpt_minutes": 12,
+    "margin_pct": 0.52,
+    "popularity_score": 0.84,
+    "description": "Wok-tossed rice with chicken pieces, eggs and vegetables",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_013",
+    "name": "Pav Bhaji",
+    "category": "main_course",
+    "cuisine": "Street Food",
+    "price": 149,
+    "is_veg": true,
+    "kpt_minutes": 10,
+    "margin_pct": 0.6,
+    "popularity_score": 0.83,
+    "description": "Spicy mashed vegetable curry served with buttered pav",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_014",
+    "name": "Dal Makhani",
+    "category": "main_course",
+    "cuisine": "North Indian",
+    "price": 199,
+    "is_veg": true,
+    "kpt_minutes": 15,
+    "margin_pct": 0.62,
+    "popularity_score": 0.86,
+    "description": "Slow-cooked black lentils in a rich buttery tomato gravy",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_015",
+    "name": "Idli Sambar",
+    "category": "main_course",
+    "cuisine": "South Indian",
+    "price": 99,
+    "is_veg": true,
+    "kpt_minutes": 5,
+    "margin_pct": 0.65,
+    "popularity_score": 0.8,
+    "description": "Steamed rice cakes served with tangy lentil soup",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_016",
+    "name": "Tandoori Chicken",
+    "category": "main_course",
+    "cuisine": "North Indian",
+    "price": 299,
+    "is_veg": false,
+    "kpt_minutes": 18,
+    "margin_pct": 0.5,
+    "popularity_score": 0.87,
+    "description": "Marinated chicken grilled in a clay oven with spices",
+    "available_sizes": [
+      "Half",
+      "Full"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_017",
+    "name": "Chicken Tikka Masala",
+    "category": "main_course",
+    "cuisine": "North Indian",
+    "price": 329,
+    "is_veg": false,
+    "kpt_minutes": 20,
+    "margin_pct": 0.52,
+    "popularity_score": 0.89,
+    "description": "Grilled chicken tikka in a spiced masala gravy",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_018",
+    "name": "Veg Pulao",
+    "category": "main_course",
+    "cuisine": "North Indian",
+    "price": 179,
+    "is_veg": true,
+    "kpt_minutes": 12,
+    "margin_pct": 0.6,
+    "popularity_score": 0.7,
+    "description": "Fragrant basmati rice cooked with mixed vegetables and whole spices",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_019",
+    "name": "Prawn Curry",
+    "category": "main_course",
+    "cuisine": "Continental",
+    "price": 349,
+    "is_veg": false,
+    "kpt_minutes": 18,
+    "margin_pct": 0.45,
+    "popularity_score": 0.72,
+    "description": "Succulent prawns cooked in a coconut-based spicy curry",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_020",
+    "name": "Fish and Chips",
+    "category": "main_course",
+    "cuisine": "Continental",
+    "price": 299,
+    "is_veg": false,
+    "kpt_minutes": 15,
+    "margin_pct": 0.48,
+    "popularity_score": 0.68,
+    "description": "Crispy beer-battered fish fillet served with golden fries",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_021",
+    "name": "Pepperoni Pizza",
+    "category": "main_course",
+    "cuisine": "Italian",
+    "price": 299,
+    "is_veg": false,
+    "kpt_minutes": 12,
+    "margin_pct": 0.55,
+    "popularity_score": 0.85,
+    "description": "Classic pizza topped with spicy pepperoni and mozzarella",
+    "available_sizes": [
+      "Regular",
+      "Large"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_022",
+    "name": "Chicken Wrap",
+    "category": "main_course",
+    "cuisine": "Continental",
+    "price": 179,
+    "is_veg": false,
+    "kpt_minutes": 8,
+    "margin_pct": 0.52,
+    "popularity_score": 0.74,
+    "description": "Grilled chicken strips wrapped in a soft tortilla with veggies",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_023",
+    "name": "Paneer Dosa",
+    "category": "main_course",
+    "cuisine": "South Indian",
+    "price": 149,
+    "is_veg": true,
+    "kpt_minutes": 8,
+    "margin_pct": 0.58,
+    "popularity_score": 0.76,
+    "description": "Crispy dosa stuffed with spiced paneer filling",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_024",
+    "name": "Veg Fried Rice",
+    "category": "main_course",
+    "cuisine": "Chinese",
+    "price": 169,
+    "is_veg": true,
+    "kpt_minutes": 10,
+    "margin_pct": 0.57,
+    "popularity_score": 0.78,
+    "description": "Wok-tossed rice with colourful vegetables and soy sauce",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_025",
+    "name": "Mutton Biryani",
+    "category": "main_course",
+    "cuisine": "North Indian",
+    "price": 349,
+    "is_veg": false,
+    "kpt_minutes": 25,
+    "margin_pct": 0.48,
+    "popularity_score": 0.91,
+    "description": "Slow-cooked tender mutton with fragrant basmati rice",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_026",
+    "name": "Aloo Paratha",
+    "category": "main_course",
+    "cuisine": "North Indian",
+    "price": 129,
+    "is_veg": true,
+    "kpt_minutes": 8,
+    "margin_pct": 0.65,
+    "popularity_score": 0.78,
+    "description": "Whole wheat flatbread stuffed with spiced potato filling",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_027",
+    "name": "Raita",
+    "category": "side",
+    "cuisine": "North Indian",
+    "price": 49,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.7,
+    "popularity_score": 0.8,
+    "description": "Chilled yoghurt with cucumber, cumin and fresh coriander",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_028",
+    "name": "Garlic Bread",
+    "category": "side",
+    "cuisine": "Italian",
+    "price": 99,
+    "is_veg": true,
+    "kpt_minutes": 15,
+    "margin_pct": 0.68,
+    "popularity_score": 0.85,
+    "description": "Toasted baguette slices brushed with garlic butter and herbs",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_029",
+    "name": "French Fries",
+    "category": "side",
+    "cuisine": "Continental",
+    "price": 99,
+    "is_veg": true,
+    "kpt_minutes": 8,
+    "margin_pct": 0.7,
+    "popularity_score": 0.88,
+    "description": "Golden crispy fries seasoned with salt and spices",
+    "available_sizes": [
+      "Regular",
+      "Large"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_030",
+    "name": "Naan",
+    "category": "side",
+    "cuisine": "North Indian",
+    "price": 39,
+    "is_veg": true,
+    "kpt_minutes": 3,
+    "margin_pct": 0.72,
+    "popularity_score": 0.88,
+    "description": "Soft leavened flatbread baked in a tandoor",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_031",
+    "name": "Papad",
+    "category": "side",
+    "cuisine": "North Indian",
+    "price": 29,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.75,
+    "popularity_score": 0.65,
+    "description": "Crispy thin lentil crackers, roasted or fried",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_032",
+    "name": "Coconut Chutney",
+    "category": "side",
+    "cuisine": "South Indian",
+    "price": 29,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.78,
+    "popularity_score": 0.82,
+    "description": "Freshly ground coconut chutney with green chilli and mustard",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_033",
+    "name": "Coleslaw",
+    "category": "side",
+    "cuisine": "Continental",
+    "price": 49,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.72,
+    "popularity_score": 0.68,
+    "description": "Creamy shredded cabbage and carrot salad",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_034",
+    "name": "Onion Rings",
+    "category": "side",
+    "cuisine": "Continental",
+    "price": 89,
+    "is_veg": true,
+    "kpt_minutes": 7,
+    "margin_pct": 0.68,
+    "popularity_score": 0.72,
+    "description": "Crispy battered onion rings with a dipping sauce",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_035",
+    "name": "Sambar",
+    "category": "side",
+    "cuisine": "South Indian",
+    "price": 39,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.75,
+    "popularity_score": 0.78,
+    "description": "Tangy tamarind-based lentil soup with vegetables",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_036",
+    "name": "Green Salad",
+    "category": "side",
+    "cuisine": "Continental",
+    "price": 69,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.72,
+    "popularity_score": 0.6,
+    "description": "Fresh seasonal greens with lemon dressing",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_037",
+    "name": "Mirchi Ka Salan",
+    "category": "side",
+    "cuisine": "North Indian",
+    "price": 69,
+    "is_veg": true,
+    "kpt_minutes": 5,
+    "margin_pct": 0.62,
+    "popularity_score": 0.75,
+    "description": "Spicy green chilli curry in a peanut and sesame gravy",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_038",
+    "name": "Butter Naan",
+    "category": "side",
+    "cuisine": "North Indian",
+    "price": 49,
+    "is_veg": true,
+    "kpt_minutes": 3,
+    "margin_pct": 0.7,
+    "popularity_score": 0.9,
+    "description": "Soft tandoor-baked naan generously brushed with butter",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_039",
+    "name": "Pita Bread",
+    "category": "side",
+    "cuisine": "Continental",
+    "price": 79,
+    "is_veg": true,
+    "kpt_minutes": 3,
+    "margin_pct": 0.65,
+    "popularity_score": 0.58,
+    "description": "Soft Middle-Eastern flatbread perfect for dipping",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_040",
+    "name": "Dinner Roll",
+    "category": "side",
+    "cuisine": "Continental",
+    "price": 49,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.68,
+    "popularity_score": 0.55,
+    "description": "Soft buttery dinner rolls served warm",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_041",
+    "name": "Steamed Rice",
+    "category": "side",
+    "cuisine": "North Indian",
+    "price": 49,
+    "is_veg": true,
+    "kpt_minutes": 5,
+    "margin_pct": 0.72,
+    "popularity_score": 0.75,
+    "description": "Plain steamed basmati rice",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_042",
+    "name": "Extra Cheese",
+    "category": "side",
+    "cuisine": "Italian",
+    "price": 49,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.75,
+    "popularity_score": 0.7,
+    "description": "Extra mozzarella cheese topping add-on",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_043",
+    "name": "Pickle",
+    "category": "side",
+    "cuisine": "North Indian",
+    "price": 19,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.8,
+    "popularity_score": 0.6,
+    "description": "Tangy mixed mango pickle",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_044",
+    "name": "Nachos",
+    "category": "side",
+    "cuisine": "Continental",
+    "price": 99,
+    "is_veg": true,
+    "kpt_minutes": 5,
+    "margin_pct": 0.68,
+    "popularity_score": 0.72,
+    "description": "Crispy tortilla chips served with salsa and cheese dip",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_045",
+    "name": "Coke 330ml",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 49,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.65,
+    "popularity_score": 0.9,
+    "description": "Chilled Coca-Cola 330ml can",
+    "available_sizes": [
+      "330ml"
+    ],
+    "group_alternative_id": "item_046"
+  },
+  {
+    "item_id": "item_046",
+    "name": "Coke 2L",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 149,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.6,
+    "popularity_score": 0.65,
+    "description": "Coca-Cola 2L bottle great for groups",
+    "available_sizes": [
+      "2L"
+    ],
+    "group_alternative_id": "item_045"
+  },
+  {
+    "item_id": "item_047",
+    "name": "Lassi",
+    "category": "beverage",
+    "cuisine": "North Indian",
+    "price": 69,
+    "is_veg": true,
+    "kpt_minutes": 2,
+    "margin_pct": 0.68,
+    "popularity_score": 0.82,
+    "description": "Thick chilled yoghurt drink, sweet or salted",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_048",
+    "name": "Cold Coffee",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 89,
+    "is_veg": true,
+    "kpt_minutes": 3,
+    "margin_pct": 0.65,
+    "popularity_score": 0.8,
+    "description": "Chilled blended coffee with milk and sugar",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_049",
+    "name": "Hot Coffee",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 69,
+    "is_veg": true,
+    "kpt_minutes": 3,
+    "margin_pct": 0.68,
+    "popularity_score": 0.75,
+    "description": "Freshly brewed hot coffee",
+    "available_sizes": [
+      "Regular",
+      "Large"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_050",
+    "name": "Masala Chai",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 39,
+    "is_veg": true,
+    "kpt_minutes": 3,
+    "margin_pct": 0.72,
+    "popularity_score": 0.85,
+    "description": "Spiced Indian tea brewed with ginger and cardamom",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_051",
+    "name": "Fresh Lime Soda",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 59,
+    "is_veg": true,
+    "kpt_minutes": 2,
+    "margin_pct": 0.72,
+    "popularity_score": 0.78,
+    "description": "Refreshing lime juice with soda, sweet or salted",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_052",
+    "name": "Mango Shake",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 99,
+    "is_veg": true,
+    "kpt_minutes": 3,
+    "margin_pct": 0.62,
+    "popularity_score": 0.79,
+    "description": "Thick and creamy fresh mango milkshake",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_053",
+    "name": "Hot Chocolate",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 99,
+    "is_veg": true,
+    "kpt_minutes": 3,
+    "margin_pct": 0.6,
+    "popularity_score": 0.72,
+    "description": "Rich and creamy hot chocolate drink",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_054",
+    "name": "Red Bull",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 129,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.5,
+    "popularity_score": 0.65,
+    "description": "Red Bull energy drink 250ml can",
+    "available_sizes": [
+      "250ml"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_055",
+    "name": "Buttermilk",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 49,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.75,
+    "popularity_score": 0.68,
+    "description": "Chilled spiced buttermilk with cumin and coriander",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_056",
+    "name": "Sprite 330ml",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 49,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.65,
+    "popularity_score": 0.8,
+    "description": "Refreshing Sprite lemon-lime soda 330ml can",
+    "available_sizes": [
+      "330ml"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_057",
+    "name": "Mineral Water",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 20,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.6,
+    "popularity_score": 0.92,
+    "description": "Packaged mineral water 500ml bottle",
+    "available_sizes": [
+      "500ml",
+      "1L"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_058",
+    "name": "Nimbu Pani",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 39,
+    "is_veg": true,
+    "kpt_minutes": 2,
+    "margin_pct": 0.75,
+    "popularity_score": 0.74,
+    "description": "Fresh lemonade with black salt and cumin",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_059",
+    "name": "Filter Coffee",
+    "category": "beverage",
+    "cuisine": "South Indian",
+    "price": 59,
+    "is_veg": true,
+    "kpt_minutes": 3,
+    "margin_pct": 0.7,
+    "popularity_score": 0.78,
+    "description": "Traditional South Indian filter coffee with frothy milk",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_060",
+    "name": "Mango Lassi",
+    "category": "beverage",
+    "cuisine": "North Indian",
+    "price": 79,
+    "is_veg": true,
+    "kpt_minutes": 2,
+    "margin_pct": 0.65,
+    "popularity_score": 0.82,
+    "description": "Sweet yoghurt-based mango smoothie",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_061",
+    "name": "Mojito",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 99,
+    "is_veg": true,
+    "kpt_minutes": 3,
+    "margin_pct": 0.68,
+    "popularity_score": 0.76,
+    "description": "Virgin mojito with fresh mint, lime and soda",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_062",
+    "name": "Watermelon Juice",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 79,
+    "is_veg": true,
+    "kpt_minutes": 3,
+    "margin_pct": 0.7,
+    "popularity_score": 0.7,
+    "description": "Chilled fresh watermelon juice with a hint of black salt",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_063",
+    "name": "Lemon Iced Tea",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 79,
+    "is_veg": true,
+    "kpt_minutes": 2,
+    "margin_pct": 0.68,
+    "popularity_score": 0.74,
+    "description": "Refreshing chilled iced tea with lemon flavour",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_064",
+    "name": "Chocolate Milkshake",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 109,
+    "is_veg": true,
+    "kpt_minutes": 3,
+    "margin_pct": 0.6,
+    "popularity_score": 0.77,
+    "description": "Thick blended chocolate milkshake with ice cream",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_065",
+    "name": "Gulab Jamun",
+    "category": "dessert",
+    "cuisine": "North Indian",
+    "price": 69,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.7,
+    "popularity_score": 0.88,
+    "description": "Soft milk-solid dumplings soaked in rose-flavoured sugar syrup",
+    "available_sizes": [
+      "2 pcs",
+      "4 pcs"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_066",
+    "name": "Brownie",
+    "category": "dessert",
+    "cuisine": "Desserts",
+    "price": 79,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.65,
+    "popularity_score": 0.82,
+    "description": "Fudgy chocolate brownie served warm",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_067",
+    "name": "Ice Cream Cup",
+    "category": "dessert",
+    "cuisine": "Desserts",
+    "price": 59,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.68,
+    "popularity_score": 0.8,
+    "description": "Single scoop ice cream cup in assorted flavours",
+    "available_sizes": [
+      "Single",
+      "Double"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_068",
+    "name": "Rasmalai",
+    "category": "dessert",
+    "cuisine": "North Indian",
+    "price": 89,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.62,
+    "popularity_score": 0.8,
+    "description": "Soft paneer discs in saffron-flavoured rabri milk",
+    "available_sizes": [
+      "2 pcs"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_069",
+    "name": "Tiramisu",
+    "category": "dessert",
+    "cuisine": "Italian",
+    "price": 129,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.58,
+    "popularity_score": 0.76,
+    "description": "Classic Italian dessert with mascarpone and espresso-soaked ladyfingers",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_070",
+    "name": "Chocolate Lava Cake",
+    "category": "dessert",
+    "cuisine": "Desserts",
+    "price": 149,
+    "is_veg": true,
+    "kpt_minutes": 8,
+    "margin_pct": 0.55,
+    "popularity_score": 0.85,
+    "description": "Warm molten chocolate cake with a gooey centre",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_071",
+    "name": "Kulfi",
+    "category": "dessert",
+    "cuisine": "North Indian",
+    "price": 59,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.68,
+    "popularity_score": 0.78,
+    "description": "Traditional Indian ice cream in cardamom and pistachio flavour",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_072",
+    "name": "Rasgulla",
+    "category": "dessert",
+    "cuisine": "Desserts",
+    "price": 69,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.65,
+    "popularity_score": 0.76,
+    "description": "Spongy cottage cheese balls in light sugar syrup",
+    "available_sizes": [
+      "2 pcs",
+      "4 pcs"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_073",
+    "name": "Kheer",
+    "category": "dessert",
+    "cuisine": "North Indian",
+    "price": 79,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.65,
+    "popularity_score": 0.74,
+    "description": "Creamy rice pudding with cardamom and dry fruits",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_074",
+    "name": "Cheesecake Slice",
+    "category": "dessert",
+    "cuisine": "Desserts",
+    "price": 149,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.55,
+    "popularity_score": 0.78,
+    "description": "Creamy New York style baked cheesecake slice",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_075",
+    "name": "Halwa",
+    "category": "dessert",
+    "cuisine": "North Indian",
+    "price": 79,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.68,
+    "popularity_score": 0.7,
+    "description": "Rich semolina halwa with ghee, nuts and cardamom",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_076",
+    "name": "Jalebi",
+    "category": "dessert",
+    "cuisine": "North Indian",
+    "price": 69,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.7,
+    "popularity_score": 0.75,
+    "description": "Crispy spiral fritters soaked in sugar syrup",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_077",
+    "name": "Waffles",
+    "category": "dessert",
+    "cuisine": "Desserts",
+    "price": 129,
+    "is_veg": true,
+    "kpt_minutes": 5,
+    "margin_pct": 0.58,
+    "popularity_score": 0.76,
+    "description": "Crispy Belgian waffles topped with ice cream and chocolate sauce",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_078",
+    "name": "Mango Kulfi",
+    "category": "dessert",
+    "cuisine": "North Indian",
+    "price": 69,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.65,
+    "popularity_score": 0.79,
+    "description": "Creamy mango-flavoured traditional Indian ice cream",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_079",
+    "name": "Donut",
+    "category": "dessert",
+    "cuisine": "Desserts",
+    "price": 59,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.62,
+    "popularity_score": 0.68,
+    "description": "Glazed donut in assorted flavours",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_080",
+    "name": "Paneer Tikka",
+    "category": "appetizer",
+    "cuisine": "North Indian",
+    "price": 199,
+    "is_veg": true,
+    "kpt_minutes": 12,
+    "margin_pct": 0.58,
+    "popularity_score": 0.88,
+    "description": "Marinated paneer cubes grilled in a tandoor with peppers and onions",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_081",
+    "name": "Chicken Wings",
+    "category": "appetizer",
+    "cuisine": "Continental",
+    "price": 179,
+    "is_veg": false,
+    "kpt_minutes": 10,
+    "margin_pct": 0.52,
+    "popularity_score": 0.84,
+    "description": "Crispy fried chicken wings tossed in spicy sauce",
+    "available_sizes": [
+      "6 pcs",
+      "12 pcs"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_082",
+    "name": "Spring Rolls",
+    "category": "appetizer",
+    "cuisine": "Chinese",
+    "price": 129,
+    "is_veg": true,
+    "kpt_minutes": 7,
+    "margin_pct": 0.62,
+    "popularity_score": 0.8,
+    "description": "Crispy vegetable spring rolls with sweet chilli dipping sauce",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_083",
+    "name": "Veg Soup",
+    "category": "appetizer",
+    "cuisine": "Continental",
+    "price": 99,
+    "is_veg": true,
+    "kpt_minutes": 5,
+    "margin_pct": 0.65,
+    "popularity_score": 0.68,
+    "description": "Hot and comforting mixed vegetable clear soup",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_084",
+    "name": "Tomato Soup",
+    "category": "appetizer",
+    "cuisine": "Continental",
+    "price": 89,
+    "is_veg": true,
+    "kpt_minutes": 5,
+    "margin_pct": 0.68,
+    "popularity_score": 0.72,
+    "description": "Creamy tomato soup with croutons and fresh cream",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_085",
+    "name": "Bruschetta",
+    "category": "appetizer",
+    "cuisine": "Italian",
+    "price": 149,
+    "is_veg": true,
+    "kpt_minutes": 5,
+    "margin_pct": 0.6,
+    "popularity_score": 0.7,
+    "description": "Toasted bread topped with fresh tomatoes, basil and olive oil",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_086",
+    "name": "Chicken 65",
+    "category": "appetizer",
+    "cuisine": "South Indian",
+    "price": 179,
+    "is_veg": false,
+    "kpt_minutes": 10,
+    "margin_pct": 0.52,
+    "popularity_score": 0.86,
+    "description": "Spicy deep-fried chicken marinated in chilli and curry leaves",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_087",
+    "name": "Hara Bhara Kabab",
+    "category": "appetizer",
+    "cuisine": "North Indian",
+    "price": 149,
+    "is_veg": true,
+    "kpt_minutes": 8,
+    "margin_pct": 0.6,
+    "popularity_score": 0.74,
+    "description": "Spinach and pea patties seasoned with spices and grilled",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_088",
+    "name": "Manchurian",
+    "category": "appetizer",
+    "cuisine": "Chinese",
+    "price": 149,
+    "is_veg": true,
+    "kpt_minutes": 8,
+    "margin_pct": 0.62,
+    "popularity_score": 0.82,
+    "description": "Crispy vegetable balls in a spicy Manchurian gravy sauce",
+    "available_sizes": [
+      "Dry",
+      "Gravy"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_089",
+    "name": "Chicken Soup",
+    "category": "appetizer",
+    "cuisine": "Continental",
+    "price": 109,
+    "is_veg": false,
+    "kpt_minutes": 5,
+    "margin_pct": 0.58,
+    "popularity_score": 0.7,
+    "description": "Hearty chicken broth with vegetables and noodles",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_090",
+    "name": "Aloo Tikki",
+    "category": "appetizer",
+    "cuisine": "North Indian",
+    "price": 99,
+    "is_veg": true,
+    "kpt_minutes": 5,
+    "margin_pct": 0.68,
+    "popularity_score": 0.78,
+    "description": "Crispy spiced potato patties with chutneys",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_091",
+    "name": "Pani Puri",
+    "category": "appetizer",
+    "cuisine": "Street Food",
+    "price": 79,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.72,
+    "popularity_score": 0.88,
+    "description": "Hollow crispy puris filled with spiced tamarind water",
+    "available_sizes": [
+      "6 pcs"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_092",
+    "name": "Samosa",
+    "category": "appetizer",
+    "cuisine": "North Indian",
+    "price": 49,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.75,
+    "popularity_score": 0.85,
+    "description": "Crispy pastry filled with spiced potatoes and peas",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_093",
+    "name": "Fish Tikka",
+    "category": "appetizer",
+    "cuisine": "North Indian",
+    "price": 219,
+    "is_veg": false,
+    "kpt_minutes": 10,
+    "margin_pct": 0.48,
+    "popularity_score": 0.72,
+    "description": "Marinated fish fillets grilled in a tandoor",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_094",
+    "name": "Chilli Paneer",
+    "category": "appetizer",
+    "cuisine": "Chinese",
+    "price": 169,
+    "is_veg": true,
+    "kpt_minutes": 8,
+    "margin_pct": 0.6,
+    "popularity_score": 0.84,
+    "description": "Crispy paneer cubes tossed with peppers in a spicy Chinese sauce",
+    "available_sizes": [
+      "Dry",
+      "Gravy"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_095",
+    "name": "Veg Biryani",
+    "category": "main_course",
+    "cuisine": "North Indian",
+    "price": 229,
+    "is_veg": true,
+    "kpt_minutes": 18,
+    "margin_pct": 0.58,
+    "popularity_score": 0.78,
+    "description": "Aromatic basmati rice cooked with seasonal vegetables and whole spices",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_096",
+    "name": "Chicken Noodles",
+    "category": "main_course",
+    "cuisine": "Chinese",
+    "price": 229,
+    "is_veg": false,
+    "kpt_minutes": 10,
+    "margin_pct": 0.52,
+    "popularity_score": 0.8,
+    "description": "Stir-fried noodles with tender chicken and vegetables",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_097",
+    "name": "Egg Fried Rice",
+    "category": "main_course",
+    "cuisine": "Chinese",
+    "price": 189,
+    "is_veg": false,
+    "kpt_minutes": 10,
+    "margin_pct": 0.55,
+    "popularity_score": 0.76,
+    "description": "Wok-tossed rice with scrambled egg and vegetables",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_098",
+    "name": "Palak Paneer",
+    "category": "main_course",
+    "cuisine": "North Indian",
+    "price": 239,
+    "is_veg": true,
+    "kpt_minutes": 15,
+    "margin_pct": 0.58,
+    "popularity_score": 0.8,
+    "description": "Cottage cheese cubes in a smooth spinach gravy",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_099",
+    "name": "Chicken Kathi Roll",
+    "category": "main_course",
+    "cuisine": "Street Food",
+    "price": 169,
+    "is_veg": false,
+    "kpt_minutes": 8,
+    "margin_pct": 0.55,
+    "popularity_score": 0.78,
+    "description": "Spiced chicken tikka wrapped in a flaky paratha",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_100",
+    "name": "Cheese Burst Pizza",
+    "category": "main_course",
+    "cuisine": "Italian",
+    "price": 329,
+    "is_veg": true,
+    "kpt_minutes": 14,
+    "margin_pct": 0.52,
+    "popularity_score": 0.82,
+    "description": "Pizza with a cheese-filled crust and extra toppings",
+    "available_sizes": [
+      "Regular",
+      "Large"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_101",
+    "name": "Masala Papad",
+    "category": "appetizer",
+    "cuisine": "North Indian",
+    "price": 49,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.78,
+    "popularity_score": 0.7,
+    "description": "Roasted papad topped with chopped onion, tomato and chutney",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_102",
+    "name": "Chicken Seekh Kabab",
+    "category": "appetizer",
+    "cuisine": "North Indian",
+    "price": 189,
+    "is_veg": false,
+    "kpt_minutes": 12,
+    "margin_pct": 0.5,
+    "popularity_score": 0.82,
+    "description": "Minced chicken skewers grilled with spices and herbs",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_103",
+    "name": "Sweet Lassi",
+    "category": "beverage",
+    "cuisine": "North Indian",
+    "price": 69,
+    "is_veg": true,
+    "kpt_minutes": 2,
+    "margin_pct": 0.68,
+    "popularity_score": 0.78,
+    "description": "Chilled sweet yoghurt-based lassi",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_104",
+    "name": "Strawberry Milkshake",
+    "category": "beverage",
+    "cuisine": "Beverages",
+    "price": 99,
+    "is_veg": true,
+    "kpt_minutes": 3,
+    "margin_pct": 0.62,
+    "popularity_score": 0.72,
+    "description": "Thick fresh strawberry milkshake",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_105",
+    "name": "Corn on the Cob",
+    "category": "appetizer",
+    "cuisine": "Street Food",
+    "price": 79,
+    "is_veg": true,
+    "kpt_minutes": 5,
+    "margin_pct": 0.68,
+    "popularity_score": 0.65,
+    "description": "Grilled sweet corn brushed with butter and chaat masala",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_106",
+    "name": "Methi Paratha",
+    "category": "main_course",
+    "cuisine": "North Indian",
+    "price": 119,
+    "is_veg": true,
+    "kpt_minutes": 8,
+    "margin_pct": 0.65,
+    "popularity_score": 0.65,
+    "description": "Whole wheat flatbread flavoured with fresh fenugreek leaves",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_107",
+    "name": "Vanilla Ice Cream",
+    "category": "dessert",
+    "cuisine": "Desserts",
+    "price": 59,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.68,
+    "popularity_score": 0.75,
+    "description": "Classic creamy vanilla ice cream scoop",
+    "available_sizes": [
+      "Single",
+      "Double"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_108",
+    "name": "Veg Manchow Soup",
+    "category": "appetizer",
+    "cuisine": "Chinese",
+    "price": 99,
+    "is_veg": true,
+    "kpt_minutes": 5,
+    "margin_pct": 0.65,
+    "popularity_score": 0.72,
+    "description": "Spicy Chinese-style vegetable soup with crispy noodles",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_109",
+    "name": "Dahi Puri",
+    "category": "appetizer",
+    "cuisine": "Street Food",
+    "price": 89,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.7,
+    "popularity_score": 0.8,
+    "description": "Crispy puris topped with yoghurt, chutneys and sev",
+    "available_sizes": [
+      "6 pcs"
+    ],
+    "group_alternative_id": null
+  },
+  {
+    "item_id": "item_110",
+    "name": "Nankhatai",
+    "category": "dessert",
+    "cuisine": "North Indian",
+    "price": 49,
+    "is_veg": true,
+    "kpt_minutes": 0,
+    "margin_pct": 0.72,
+    "popularity_score": 0.6,
+    "description": "Crispy Indian shortbread cookies with cardamom flavour",
+    "available_sizes": [
+      "Regular"
+    ],
+    "group_alternative_id": null
+  }
+]

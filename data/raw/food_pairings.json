@@ -1,0 +1,1124 @@
+[
+  {
+    "pairing_id": "pair_001",
+    "item1": "Chicken Biryani",
+    "item2": "Raita",
+    "pairing_strength": 0.95,
+    "reason": "Classic biryani accompaniment"
+  },
+  {
+    "pairing_id": "pair_002",
+    "item1": "Chicken Biryani",
+    "item2": "Mirchi Ka Salan",
+    "pairing_strength": 0.85,
+    "reason": "Traditional Hyderabadi biryani side"
+  },
+  {
+    "pairing_id": "pair_003",
+    "item1": "Chicken Biryani",
+    "item2": "Gulab Jamun",
+    "pairing_strength": 0.7,
+    "reason": "Sweet finish after a spicy biryani meal"
+  },
+  {
+    "pairing_id": "pair_004",
+    "item1": "Chicken Biryani",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.75,
+    "reason": "Cold fizzy drink pairs well with spicy biryani"
+  },
+  {
+    "pairing_id": "pair_005",
+    "item1": "Margherita Pizza",
+    "item2": "Garlic Bread",
+    "pairing_strength": 0.9,
+    "reason": "Classic Italian starter and main pairing"
+  },
+  {
+    "pairing_id": "pair_006",
+    "item1": "Margherita Pizza",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.85,
+    "reason": "Pizza and cola is a universally loved combo"
+  },
+  {
+    "pairing_id": "pair_007",
+    "item1": "Margherita Pizza",
+    "item2": "Tiramisu",
+    "pairing_strength": 0.65,
+    "reason": "Italian meal completed with a classic Italian dessert"
+  },
+  {
+    "pairing_id": "pair_008",
+    "item1": "Veg Burger",
+    "item2": "French Fries",
+    "pairing_strength": 0.92,
+    "reason": "The quintessential burger and fries combo"
+  },
+  {
+    "pairing_id": "pair_009",
+    "item1": "Chicken Burger",
+    "item2": "French Fries",
+    "pairing_strength": 0.92,
+    "reason": "The quintessential burger and fries combo"
+  },
+  {
+    "pairing_id": "pair_010",
+    "item1": "Veg Burger",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.88,
+    "reason": "Burger meal feels complete with a cold soda"
+  },
+  {
+    "pairing_id": "pair_011",
+    "item1": "Chicken Burger",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.88,
+    "reason": "Burger meal feels complete with a cold soda"
+  },
+  {
+    "pairing_id": "pair_012",
+    "item1": "Veg Burger",
+    "item2": "Onion Rings",
+    "pairing_strength": 0.7,
+    "reason": "Onion rings are a popular burger side"
+  },
+  {
+    "pairing_id": "pair_013",
+    "item1": "Masala Dosa",
+    "item2": "Coconut Chutney",
+    "pairing_strength": 0.95,
+    "reason": "Dosa is always served with coconut chutney"
+  },
+  {
+    "pairing_id": "pair_014",
+    "item1": "Masala Dosa",
+    "item2": "Sambar",
+    "pairing_strength": 0.9,
+    "reason": "Dosa and sambar is a classic South Indian pairing"
+  },
+  {
+    "pairing_id": "pair_015",
+    "item1": "Masala Dosa",
+    "item2": "Filter Coffee",
+    "pairing_strength": 0.8,
+    "reason": "Authentic South Indian breakfast combination"
+  },
+  {
+    "pairing_id": "pair_016",
+    "item1": "Pasta Alfredo",
+    "item2": "Garlic Bread",
+    "pairing_strength": 0.88,
+    "reason": "Garlic bread is the perfect companion for pasta"
+  },
+  {
+    "pairing_id": "pair_017",
+    "item1": "Pasta Alfredo",
+    "item2": "Tiramisu",
+    "pairing_strength": 0.65,
+    "reason": "Italian meal rounded off with an Italian dessert"
+  },
+  {
+    "pairing_id": "pair_018",
+    "item1": "Veg Hakka Noodles",
+    "item2": "Spring Rolls",
+    "pairing_strength": 0.8,
+    "reason": "Popular Chinese restaurant combination"
+  },
+  {
+    "pairing_id": "pair_019",
+    "item1": "Veg Hakka Noodles",
+    "item2": "Manchurian",
+    "pairing_strength": 0.75,
+    "reason": "Noodles and Manchurian is a classic Indo-Chinese duo"
+  },
+  {
+    "pairing_id": "pair_020",
+    "item1": "Chole Bhature",
+    "item2": "Lassi",
+    "pairing_strength": 0.85,
+    "reason": "Lassi cools down the spicy chole perfectly"
+  },
+  {
+    "pairing_id": "pair_021",
+    "item1": "Chole Bhature",
+    "item2": "Raita",
+    "pairing_strength": 0.7,
+    "reason": "Yoghurt-based side balances the spicy chickpea curry"
+  },
+  {
+    "pairing_id": "pair_022",
+    "item1": "Paneer Butter Masala",
+    "item2": "Naan",
+    "pairing_strength": 0.92,
+    "reason": "Rich curry pairs best with soft naan"
+  },
+  {
+    "pairing_id": "pair_023",
+    "item1": "Paneer Butter Masala",
+    "item2": "Butter Naan",
+    "pairing_strength": 0.9,
+    "reason": "Buttery naan enhances the creamy paneer curry"
+  },
+  {
+    "pairing_id": "pair_024",
+    "item1": "Paneer Butter Masala",
+    "item2": "Raita",
+    "pairing_strength": 0.75,
+    "reason": "Cool raita balances the rich tomato gravy"
+  },
+  {
+    "pairing_id": "pair_025",
+    "item1": "Butter Chicken",
+    "item2": "Naan",
+    "pairing_strength": 0.92,
+    "reason": "Naan is the classic bread to mop up butter chicken gravy"
+  },
+  {
+    "pairing_id": "pair_026",
+    "item1": "Butter Chicken",
+    "item2": "Butter Naan",
+    "pairing_strength": 0.9,
+    "reason": "Butter naan pairs perfectly with butter chicken"
+  },
+  {
+    "pairing_id": "pair_027",
+    "item1": "Maggi",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.6,
+    "reason": "A fizzy drink adds to the Maggi snack experience"
+  },
+  {
+    "pairing_id": "pair_028",
+    "item1": "Dal Makhani",
+    "item2": "Naan",
+    "pairing_strength": 0.88,
+    "reason": "Dal makhani and naan is a staple Indian dinner pairing"
+  },
+  {
+    "pairing_id": "pair_029",
+    "item1": "Dal Makhani",
+    "item2": "Steamed Rice",
+    "pairing_strength": 0.85,
+    "reason": "Dal over rice is a classic Indian comfort food"
+  },
+  {
+    "pairing_id": "pair_030",
+    "item1": "Idli Sambar",
+    "item2": "Filter Coffee",
+    "pairing_strength": 0.85,
+    "reason": "Traditional South Indian breakfast trio"
+  },
+  {
+    "pairing_id": "pair_031",
+    "item1": "Idli Sambar",
+    "item2": "Coconut Chutney",
+    "pairing_strength": 0.9,
+    "reason": "Idli is always served with coconut chutney and sambar"
+  },
+  {
+    "pairing_id": "pair_032",
+    "item1": "Tandoori Chicken",
+    "item2": "Naan",
+    "pairing_strength": 0.85,
+    "reason": "Tandoori chicken and naan is a beloved North Indian pairing"
+  },
+  {
+    "pairing_id": "pair_033",
+    "item1": "Tandoori Chicken",
+    "item2": "Lassi",
+    "pairing_strength": 0.75,
+    "reason": "Lassi cools the palate after spicy tandoori"
+  },
+  {
+    "pairing_id": "pair_034",
+    "item1": "Mutton Biryani",
+    "item2": "Raita",
+    "pairing_strength": 0.95,
+    "reason": "Classic biryani and raita pairing"
+  },
+  {
+    "pairing_id": "pair_035",
+    "item1": "Mutton Biryani",
+    "item2": "Gulab Jamun",
+    "pairing_strength": 0.7,
+    "reason": "Sweet dessert finish after a hearty biryani"
+  },
+  {
+    "pairing_id": "pair_036",
+    "item1": "Aloo Paratha",
+    "item2": "Lassi",
+    "pairing_strength": 0.85,
+    "reason": "North Indian breakfast classic"
+  },
+  {
+    "pairing_id": "pair_037",
+    "item1": "Aloo Paratha",
+    "item2": "Pickle",
+    "pairing_strength": 0.8,
+    "reason": "Tangy pickle is the traditional accompaniment for paratha"
+  },
+  {
+    "pairing_id": "pair_038",
+    "item1": "Paneer Tikka",
+    "item2": "Mint Chutney",
+    "pairing_strength": 0.85,
+    "reason": "Mint chutney is the go-to dip for paneer tikka"
+  },
+  {
+    "pairing_id": "pair_039",
+    "item1": "Spring Rolls",
+    "item2": "Manchurian",
+    "pairing_strength": 0.7,
+    "reason": "Popular starter combination at Chinese restaurants"
+  },
+  {
+    "pairing_id": "pair_040",
+    "item1": "Any",
+    "item2": "Red Bull",
+    "pairing_strength": 0.6,
+    "reason": "Late night energy boost",
+    "context": "late_night"
+  },
+  {
+    "pairing_id": "pair_041",
+    "item1": "Any",
+    "item2": "Veg Soup",
+    "pairing_strength": 0.5,
+    "reason": "Warm soup is perfect on a rainy day",
+    "context": "rainy"
+  },
+  {
+    "pairing_id": "pair_042",
+    "item1": "Any",
+    "item2": "Tomato Soup",
+    "pairing_strength": 0.5,
+    "reason": "Warm soup is comforting when it rains",
+    "context": "rainy"
+  },
+  {
+    "pairing_id": "pair_043",
+    "item1": "Any",
+    "item2": "Masala Chai",
+    "pairing_strength": 0.6,
+    "reason": "Hot chai is a must on a rainy day",
+    "context": "rainy"
+  },
+  {
+    "pairing_id": "pair_044",
+    "item1": "Any",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.5,
+    "reason": "Cold fizzy drink refreshes in summer",
+    "context": "summer"
+  },
+  {
+    "pairing_id": "pair_045",
+    "item1": "Any",
+    "item2": "Mango Lassi",
+    "pairing_strength": 0.5,
+    "reason": "Mango lassi is a favourite summer cooler",
+    "context": "summer"
+  },
+  {
+    "pairing_id": "pair_046",
+    "item1": "Any",
+    "item2": "Ice Cream Cup",
+    "pairing_strength": 0.4,
+    "reason": "Ice cream is a great summer treat",
+    "context": "summer"
+  },
+  {
+    "pairing_id": "pair_047",
+    "item1": "Chicken Biryani",
+    "item2": "Papad",
+    "pairing_strength": 0.65,
+    "reason": "Crispy papad adds texture to the biryani meal"
+  },
+  {
+    "pairing_id": "pair_048",
+    "item1": "Chicken Biryani",
+    "item2": "Sprite 330ml",
+    "pairing_strength": 0.7,
+    "reason": "A chilled soda helps with the biryani spices"
+  },
+  {
+    "pairing_id": "pair_049",
+    "item1": "Mutton Biryani",
+    "item2": "Mirchi Ka Salan",
+    "pairing_strength": 0.88,
+    "reason": "Traditional Hyderabadi biryani side dish"
+  },
+  {
+    "pairing_id": "pair_050",
+    "item1": "Mutton Biryani",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.72,
+    "reason": "Cold drink pairs well with the rich biryani"
+  },
+  {
+    "pairing_id": "pair_051",
+    "item1": "Butter Chicken",
+    "item2": "Steamed Rice",
+    "pairing_strength": 0.8,
+    "reason": "Butter chicken over rice is a comforting combo"
+  },
+  {
+    "pairing_id": "pair_052",
+    "item1": "Butter Chicken",
+    "item2": "Raita",
+    "pairing_strength": 0.72,
+    "reason": "Raita cools the spicy chicken gravy"
+  },
+  {
+    "pairing_id": "pair_053",
+    "item1": "Dal Makhani",
+    "item2": "Butter Naan",
+    "pairing_strength": 0.85,
+    "reason": "Butter naan and dal makhani is a restaurant favourite"
+  },
+  {
+    "pairing_id": "pair_054",
+    "item1": "Dal Makhani",
+    "item2": "Raita",
+    "pairing_strength": 0.7,
+    "reason": "Raita balances the rich lentil curry"
+  },
+  {
+    "pairing_id": "pair_055",
+    "item1": "Paneer Tikka",
+    "item2": "Lassi",
+    "pairing_strength": 0.72,
+    "reason": "Lassi pairs well with grilled paneer starters"
+  },
+  {
+    "pairing_id": "pair_056",
+    "item1": "Paneer Tikka",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.68,
+    "reason": "Cold drink is refreshing alongside spicy tikka"
+  },
+  {
+    "pairing_id": "pair_057",
+    "item1": "Pepperoni Pizza",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.88,
+    "reason": "Pizza and cola is a timeless combination"
+  },
+  {
+    "pairing_id": "pair_058",
+    "item1": "Pepperoni Pizza",
+    "item2": "Garlic Bread",
+    "pairing_strength": 0.85,
+    "reason": "Garlic bread complements pizza perfectly"
+  },
+  {
+    "pairing_id": "pair_059",
+    "item1": "Pepperoni Pizza",
+    "item2": "Tiramisu",
+    "pairing_strength": 0.62,
+    "reason": "Italian dessert rounds off an Italian pizza meal"
+  },
+  {
+    "pairing_id": "pair_060",
+    "item1": "Cheese Burst Pizza",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.87,
+    "reason": "The cheese burst pizza and cold soda is a crowd favourite"
+  },
+  {
+    "pairing_id": "pair_061",
+    "item1": "Cheese Burst Pizza",
+    "item2": "Garlic Bread",
+    "pairing_strength": 0.82,
+    "reason": "Garlic bread is a perfect Italian starter"
+  },
+  {
+    "pairing_id": "pair_062",
+    "item1": "Veg Burger",
+    "item2": "Coleslaw",
+    "pairing_strength": 0.75,
+    "reason": "Coleslaw adds a creamy contrast to the burger"
+  },
+  {
+    "pairing_id": "pair_063",
+    "item1": "Chicken Burger",
+    "item2": "Coleslaw",
+    "pairing_strength": 0.75,
+    "reason": "Creamy coleslaw is a great burger side"
+  },
+  {
+    "pairing_id": "pair_064",
+    "item1": "Chicken Burger",
+    "item2": "Sprite 330ml",
+    "pairing_strength": 0.8,
+    "reason": "A chilled Sprite refreshes between bites of a chicken burger"
+  },
+  {
+    "pairing_id": "pair_065",
+    "item1": "Pav Bhaji",
+    "item2": "Lassi",
+    "pairing_strength": 0.72,
+    "reason": "Lassi cools down the spicy bhaji"
+  },
+  {
+    "pairing_id": "pair_066",
+    "item1": "Pav Bhaji",
+    "item2": "Masala Chai",
+    "pairing_strength": 0.62,
+    "reason": "Street food and chai is a classic Indian combination"
+  },
+  {
+    "pairing_id": "pair_067",
+    "item1": "Pav Bhaji",
+    "item2": "Gulab Jamun",
+    "pairing_strength": 0.6,
+    "reason": "A sweet dessert rounds off the street food meal"
+  },
+  {
+    "pairing_id": "pair_068",
+    "item1": "Veg Hakka Noodles",
+    "item2": "Chicken 65",
+    "pairing_strength": 0.78,
+    "reason": "Chicken 65 is a popular accompaniment with Chinese noodles"
+  },
+  {
+    "pairing_id": "pair_069",
+    "item1": "Veg Hakka Noodles",
+    "item2": "Veg Soup",
+    "pairing_strength": 0.65,
+    "reason": "Soup and noodles make a complete Chinese meal"
+  },
+  {
+    "pairing_id": "pair_070",
+    "item1": "Chicken Fried Rice",
+    "item2": "Manchurian",
+    "pairing_strength": 0.82,
+    "reason": "Fried rice and Manchurian is a beloved Indo-Chinese combo"
+  },
+  {
+    "pairing_id": "pair_071",
+    "item1": "Chicken Fried Rice",
+    "item2": "Spring Rolls",
+    "pairing_strength": 0.75,
+    "reason": "Spring rolls are a popular side with fried rice"
+  },
+  {
+    "pairing_id": "pair_072",
+    "item1": "Chicken Fried Rice",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.72,
+    "reason": "Cold soda goes well with Chinese fried rice"
+  },
+  {
+    "pairing_id": "pair_073",
+    "item1": "Veg Fried Rice",
+    "item2": "Manchurian",
+    "pairing_strength": 0.82,
+    "reason": "Veg fried rice and Manchurian is a classic Indo-Chinese combo"
+  },
+  {
+    "pairing_id": "pair_074",
+    "item1": "Veg Fried Rice",
+    "item2": "Chilli Paneer",
+    "pairing_strength": 0.78,
+    "reason": "Chilli paneer pairs brilliantly with veg fried rice"
+  },
+  {
+    "pairing_id": "pair_075",
+    "item1": "Masala Dosa",
+    "item2": "Mango Lassi",
+    "pairing_strength": 0.68,
+    "reason": "Mango lassi is a refreshing drink with South Indian food"
+  },
+  {
+    "pairing_id": "pair_076",
+    "item1": "Idli Sambar",
+    "item2": "Masala Chai",
+    "pairing_strength": 0.75,
+    "reason": "Chai and idli is a popular morning combo"
+  },
+  {
+    "pairing_id": "pair_077",
+    "item1": "Paneer Dosa",
+    "item2": "Coconut Chutney",
+    "pairing_strength": 0.9,
+    "reason": "Coconut chutney is essential with any dosa"
+  },
+  {
+    "pairing_id": "pair_078",
+    "item1": "Paneer Dosa",
+    "item2": "Sambar",
+    "pairing_strength": 0.85,
+    "reason": "Sambar is the classic dosa accompaniment"
+  },
+  {
+    "pairing_id": "pair_079",
+    "item1": "Chicken Tikka Masala",
+    "item2": "Naan",
+    "pairing_strength": 0.9,
+    "reason": "Naan is the perfect bread to scoop up the rich masala"
+  },
+  {
+    "pairing_id": "pair_080",
+    "item1": "Chicken Tikka Masala",
+    "item2": "Steamed Rice",
+    "pairing_strength": 0.78,
+    "reason": "Rice soaks up the flavourful tikka masala gravy"
+  },
+  {
+    "pairing_id": "pair_081",
+    "item1": "Chicken Tikka Masala",
+    "item2": "Raita",
+    "pairing_strength": 0.72,
+    "reason": "Raita balances the spiciness of the masala"
+  },
+  {
+    "pairing_id": "pair_082",
+    "item1": "Chicken Wings",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.85,
+    "reason": "Cold soda is the go-to drink with chicken wings"
+  },
+  {
+    "pairing_id": "pair_083",
+    "item1": "Chicken Wings",
+    "item2": "French Fries",
+    "pairing_strength": 0.8,
+    "reason": "Fries and wings are a popular snack combo"
+  },
+  {
+    "pairing_id": "pair_084",
+    "item1": "Chicken Wings",
+    "item2": "Nachos",
+    "pairing_strength": 0.68,
+    "reason": "Nachos are a great starter alongside wings"
+  },
+  {
+    "pairing_id": "pair_085",
+    "item1": "Samosa",
+    "item2": "Masala Chai",
+    "pairing_strength": 0.9,
+    "reason": "Samosa and chai is the most loved Indian snack pairing"
+  },
+  {
+    "pairing_id": "pair_086",
+    "item1": "Samosa",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.68,
+    "reason": "Cold soda pairs well with the hot crispy samosa"
+  },
+  {
+    "pairing_id": "pair_087",
+    "item1": "Pani Puri",
+    "item2": "Masala Chai",
+    "pairing_strength": 0.65,
+    "reason": "Street food and chai is an iconic Indian pairing"
+  },
+  {
+    "pairing_id": "pair_088",
+    "item1": "Aloo Tikki",
+    "item2": "Masala Chai",
+    "pairing_strength": 0.72,
+    "reason": "Snack and chai is a classic Indian pairing"
+  },
+  {
+    "pairing_id": "pair_089",
+    "item1": "Aloo Paratha",
+    "item2": "Curd",
+    "pairing_strength": 0.85,
+    "reason": "Curd is a traditional accompaniment for paratha"
+  },
+  {
+    "pairing_id": "pair_090",
+    "item1": "Aloo Paratha",
+    "item2": "Lassi",
+    "pairing_strength": 0.85,
+    "reason": "Lassi is the classic drink with Punjabi parathas"
+  },
+  {
+    "pairing_id": "pair_091",
+    "item1": "Chocolate Lava Cake",
+    "item2": "Vanilla Ice Cream",
+    "pairing_strength": 0.92,
+    "reason": "Hot lava cake with cold ice cream is a perfect dessert combo"
+  },
+  {
+    "pairing_id": "pair_092",
+    "item1": "Brownie",
+    "item2": "Vanilla Ice Cream",
+    "pairing_strength": 0.88,
+    "reason": "Brownie and ice cream is a beloved dessert pairing"
+  },
+  {
+    "pairing_id": "pair_093",
+    "item1": "Waffles",
+    "item2": "Hot Chocolate",
+    "pairing_strength": 0.8,
+    "reason": "Waffles and hot chocolate is a cosy dessert combo"
+  },
+  {
+    "pairing_id": "pair_094",
+    "item1": "Gulab Jamun",
+    "item2": "Vanilla Ice Cream",
+    "pairing_strength": 0.78,
+    "reason": "Hot gulab jamun with cold ice cream is a fusion favourite"
+  },
+  {
+    "pairing_id": "pair_095",
+    "item1": "Cheesecake Slice",
+    "item2": "Cold Coffee",
+    "pairing_strength": 0.78,
+    "reason": "Coffee and cheesecake is a classic caf\u00e9 pairing"
+  },
+  {
+    "pairing_id": "pair_096",
+    "item1": "Tiramisu",
+    "item2": "Hot Coffee",
+    "pairing_strength": 0.82,
+    "reason": "Tiramisu is a coffee-based dessert that pairs with coffee"
+  },
+  {
+    "pairing_id": "pair_097",
+    "item1": "Bruschetta",
+    "item2": "Pasta Alfredo",
+    "pairing_strength": 0.72,
+    "reason": "Bruschetta is a classic Italian appetiser before pasta"
+  },
+  {
+    "pairing_id": "pair_098",
+    "item1": "Bruschetta",
+    "item2": "Margherita Pizza",
+    "pairing_strength": 0.68,
+    "reason": "Italian starter and main combination"
+  },
+  {
+    "pairing_id": "pair_099",
+    "item1": "Tomato Soup",
+    "item2": "Garlic Bread",
+    "pairing_strength": 0.88,
+    "reason": "Garlic bread and tomato soup is a comfort food classic"
+  },
+  {
+    "pairing_id": "pair_100",
+    "item1": "Veg Soup",
+    "item2": "Garlic Bread",
+    "pairing_strength": 0.8,
+    "reason": "Garlic bread dunked in soup is a satisfying starter"
+  },
+  {
+    "pairing_id": "pair_101",
+    "item1": "Manchurian",
+    "item2": "Veg Fried Rice",
+    "pairing_strength": 0.85,
+    "reason": "Gravy Manchurian over rice is a popular Indo-Chinese dish"
+  },
+  {
+    "pairing_id": "pair_102",
+    "item1": "Chilli Paneer",
+    "item2": "Veg Hakka Noodles",
+    "pairing_strength": 0.8,
+    "reason": "Chilli paneer and noodles is a popular Indo-Chinese combo"
+  },
+  {
+    "pairing_id": "pair_103",
+    "item1": "Mango Shake",
+    "item2": "Samosa",
+    "pairing_strength": 0.65,
+    "reason": "Mango shake and samosa is a sweet and savoury snack combo"
+  },
+  {
+    "pairing_id": "pair_104",
+    "item1": "Masala Chai",
+    "item2": "Nankhatai",
+    "pairing_strength": 0.85,
+    "reason": "Chai and nankhatai is a traditional Indian tea-time pairing"
+  },
+  {
+    "pairing_id": "pair_105",
+    "item1": "Masala Chai",
+    "item2": "Brownie",
+    "pairing_strength": 0.7,
+    "reason": "Chai and a sweet snack is a great combination"
+  },
+  {
+    "pairing_id": "pair_106",
+    "item1": "Cold Coffee",
+    "item2": "Brownie",
+    "pairing_strength": 0.82,
+    "reason": "Cold coffee and brownie is a popular caf\u00e9 combo"
+  },
+  {
+    "pairing_id": "pair_107",
+    "item1": "Cold Coffee",
+    "item2": "Chocolate Lava Cake",
+    "pairing_strength": 0.78,
+    "reason": "Coffee and chocolate dessert is a match made in heaven"
+  },
+  {
+    "pairing_id": "pair_108",
+    "item1": "Chicken 65",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.78,
+    "reason": "Cold soda cuts through the spice of Chicken 65"
+  },
+  {
+    "pairing_id": "pair_109",
+    "item1": "Chicken 65",
+    "item2": "Sprite 330ml",
+    "pairing_strength": 0.75,
+    "reason": "Sprite is refreshing alongside spicy starters"
+  },
+  {
+    "pairing_id": "pair_110",
+    "item1": "Hara Bhara Kabab",
+    "item2": "Mint Chutney",
+    "pairing_strength": 0.88,
+    "reason": "Mint chutney is the classic dip for hara bhara kabab"
+  },
+  {
+    "pairing_id": "pair_111",
+    "item1": "Fish Tikka",
+    "item2": "Mint Chutney",
+    "pairing_strength": 0.85,
+    "reason": "Mint chutney is the standard dipping sauce for tikka dishes"
+  },
+  {
+    "pairing_id": "pair_112",
+    "item1": "Fish Tikka",
+    "item2": "Lassi",
+    "pairing_strength": 0.68,
+    "reason": "Lassi is a refreshing drink with North Indian grilled starters"
+  },
+  {
+    "pairing_id": "pair_113",
+    "item1": "Veg Pulao",
+    "item2": "Raita",
+    "pairing_strength": 0.88,
+    "reason": "Raita is the classic side for any pulao"
+  },
+  {
+    "pairing_id": "pair_114",
+    "item1": "Veg Pulao",
+    "item2": "Papad",
+    "pairing_strength": 0.7,
+    "reason": "Crispy papad adds a nice crunch to a pulao meal"
+  },
+  {
+    "pairing_id": "pair_115",
+    "item1": "Veg Biryani",
+    "item2": "Raita",
+    "pairing_strength": 0.92,
+    "reason": "Raita is essential with any biryani"
+  },
+  {
+    "pairing_id": "pair_116",
+    "item1": "Veg Biryani",
+    "item2": "Mirchi Ka Salan",
+    "pairing_strength": 0.8,
+    "reason": "Mirchi ka salan is a traditional biryani accompaniment"
+  },
+  {
+    "pairing_id": "pair_117",
+    "item1": "Prawn Curry",
+    "item2": "Steamed Rice",
+    "pairing_strength": 0.9,
+    "reason": "Prawn curry is best enjoyed with steamed rice"
+  },
+  {
+    "pairing_id": "pair_118",
+    "item1": "Prawn Curry",
+    "item2": "Pita Bread",
+    "pairing_strength": 0.65,
+    "reason": "Pita bread can be used to scoop up the prawn curry"
+  },
+  {
+    "pairing_id": "pair_119",
+    "item1": "Fish and Chips",
+    "item2": "Coleslaw",
+    "pairing_strength": 0.8,
+    "reason": "Classic British side dish complement for fish and chips"
+  },
+  {
+    "pairing_id": "pair_120",
+    "item1": "Fish and Chips",
+    "item2": "Sprite 330ml",
+    "pairing_strength": 0.72,
+    "reason": "Light soda pairs well with the crispy fish"
+  },
+  {
+    "pairing_id": "pair_121",
+    "item1": "Chicken Wrap",
+    "item2": "French Fries",
+    "pairing_strength": 0.85,
+    "reason": "Fries are the natural side for any wrap"
+  },
+  {
+    "pairing_id": "pair_122",
+    "item1": "Chicken Wrap",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.8,
+    "reason": "Cold soda complements a hearty chicken wrap"
+  },
+  {
+    "pairing_id": "pair_123",
+    "item1": "Chicken Kathi Roll",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.78,
+    "reason": "Cold soda pairs well with the spicy kathi roll"
+  },
+  {
+    "pairing_id": "pair_124",
+    "item1": "Chicken Kathi Roll",
+    "item2": "French Fries",
+    "pairing_strength": 0.75,
+    "reason": "Fries are a popular side with rolls"
+  },
+  {
+    "pairing_id": "pair_125",
+    "item1": "Maggi",
+    "item2": "Masala Chai",
+    "pairing_strength": 0.75,
+    "reason": "Maggi and chai is a beloved late evening snack combo"
+  },
+  {
+    "pairing_id": "pair_126",
+    "item1": "Chicken Noodles",
+    "item2": "Spring Rolls",
+    "pairing_strength": 0.78,
+    "reason": "Spring rolls are a popular starter before noodles"
+  },
+  {
+    "pairing_id": "pair_127",
+    "item1": "Chicken Noodles",
+    "item2": "Chicken 65",
+    "pairing_strength": 0.75,
+    "reason": "Chicken 65 and noodles make a filling Chinese meal"
+  },
+  {
+    "pairing_id": "pair_128",
+    "item1": "Egg Fried Rice",
+    "item2": "Manchurian",
+    "pairing_strength": 0.8,
+    "reason": "Manchurian and fried rice is a popular combo"
+  },
+  {
+    "pairing_id": "pair_129",
+    "item1": "Palak Paneer",
+    "item2": "Naan",
+    "pairing_strength": 0.9,
+    "reason": "Naan is the ideal bread with any paneer curry"
+  },
+  {
+    "pairing_id": "pair_130",
+    "item1": "Palak Paneer",
+    "item2": "Steamed Rice",
+    "pairing_strength": 0.8,
+    "reason": "Rice pairs well with the smooth spinach gravy"
+  },
+  {
+    "pairing_id": "pair_131",
+    "item1": "Chicken Seekh Kabab",
+    "item2": "Mint Chutney",
+    "pairing_strength": 0.9,
+    "reason": "Mint chutney is the classic dip for seekh kabab"
+  },
+  {
+    "pairing_id": "pair_132",
+    "item1": "Chicken Seekh Kabab",
+    "item2": "Naan",
+    "pairing_strength": 0.78,
+    "reason": "Seekh kabab wrapped in naan is a popular street-food style combo"
+  },
+  {
+    "pairing_id": "pair_133",
+    "item1": "Masala Papad",
+    "item2": "Butter Chicken",
+    "pairing_strength": 0.68,
+    "reason": "Masala papad is a popular starter before the main course"
+  },
+  {
+    "pairing_id": "pair_134",
+    "item1": "Masala Papad",
+    "item2": "Dal Makhani",
+    "pairing_strength": 0.68,
+    "reason": "Papad is a common starter alongside dal makhani"
+  },
+  {
+    "pairing_id": "pair_135",
+    "item1": "Corn on the Cob",
+    "item2": "Nimbu Pani",
+    "pairing_strength": 0.72,
+    "reason": "Street food and lemonade is a refreshing summer combo"
+  },
+  {
+    "pairing_id": "pair_136",
+    "item1": "Dahi Puri",
+    "item2": "Masala Chai",
+    "pairing_strength": 0.65,
+    "reason": "Chaat and chai is a popular Indian street food pairing"
+  },
+  {
+    "pairing_id": "pair_137",
+    "item1": "Methi Paratha",
+    "item2": "Lassi",
+    "pairing_strength": 0.82,
+    "reason": "Lassi pairs well with any Punjabi paratha"
+  },
+  {
+    "pairing_id": "pair_138",
+    "item1": "Methi Paratha",
+    "item2": "Pickle",
+    "pairing_strength": 0.78,
+    "reason": "Pickle and paratha is a traditional North Indian pairing"
+  },
+  {
+    "pairing_id": "pair_139",
+    "item1": "Veg Manchow Soup",
+    "item2": "Veg Fried Rice",
+    "pairing_strength": 0.72,
+    "reason": "Manchow soup is a popular starter before Chinese fried rice"
+  },
+  {
+    "pairing_id": "pair_140",
+    "item1": "Chicken Soup",
+    "item2": "Dinner Roll",
+    "pairing_strength": 0.8,
+    "reason": "Dinner roll is perfect for dipping in chicken soup"
+  },
+  {
+    "pairing_id": "pair_141",
+    "item1": "Buttermilk",
+    "item2": "Chicken Biryani",
+    "pairing_strength": 0.72,
+    "reason": "Buttermilk is a cooling digestive drink with biryani"
+  },
+  {
+    "pairing_id": "pair_142",
+    "item1": "Buttermilk",
+    "item2": "Mutton Biryani",
+    "pairing_strength": 0.72,
+    "reason": "Buttermilk aids digestion after a heavy biryani"
+  },
+  {
+    "pairing_id": "pair_143",
+    "item1": "Sweet Lassi",
+    "item2": "Aloo Paratha",
+    "pairing_strength": 0.88,
+    "reason": "Sweet lassi and paratha is a quintessential Punjabi meal"
+  },
+  {
+    "pairing_id": "pair_144",
+    "item1": "Kulfi",
+    "item2": "Gulab Jamun",
+    "pairing_strength": 0.7,
+    "reason": "Two classic Indian desserts enjoyed together"
+  },
+  {
+    "pairing_id": "pair_145",
+    "item1": "Rasmalai",
+    "item2": "Kheer",
+    "pairing_strength": 0.62,
+    "reason": "Classic Indian milk desserts pair well at the end of a meal"
+  },
+  {
+    "pairing_id": "pair_146",
+    "item1": "Jalebi",
+    "item2": "Lassi",
+    "pairing_strength": 0.8,
+    "reason": "Hot jalebi with cold lassi is a classic Indian street food combo"
+  },
+  {
+    "pairing_id": "pair_147",
+    "item1": "Chocolate Milkshake",
+    "item2": "French Fries",
+    "pairing_strength": 0.78,
+    "reason": "A milkshake and fries is a classic diner-style combo"
+  },
+  {
+    "pairing_id": "pair_148",
+    "item1": "Mango Kulfi",
+    "item2": "Jalebi",
+    "pairing_strength": 0.72,
+    "reason": "Mango kulfi and jalebi is a popular Indian dessert pairing"
+  },
+  {
+    "pairing_id": "pair_149",
+    "item1": "Halwa",
+    "item2": "Masala Chai",
+    "pairing_strength": 0.78,
+    "reason": "Halwa and chai is a traditional Indian sweet snack pairing"
+  },
+  {
+    "pairing_id": "pair_150",
+    "item1": "Donut",
+    "item2": "Cold Coffee",
+    "pairing_strength": 0.8,
+    "reason": "Donut and cold coffee is a popular caf\u00e9 snack combo"
+  },
+  {
+    "pairing_id": "pair_151",
+    "item1": "Nachos",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.82,
+    "reason": "Nachos and soda is a popular movie-time snack combo"
+  },
+  {
+    "pairing_id": "pair_152",
+    "item1": "Onion Rings",
+    "item2": "Coke 330ml",
+    "pairing_strength": 0.78,
+    "reason": "Cold soda is a refreshing complement to crispy onion rings"
+  },
+  {
+    "pairing_id": "pair_153",
+    "item1": "Pani Puri",
+    "item2": "Nimbu Pani",
+    "pairing_strength": 0.7,
+    "reason": "Fresh lime soda is a natural pairing with tangy street food"
+  },
+  {
+    "pairing_id": "pair_154",
+    "item1": "Chicken Biryani",
+    "item2": "Buttermilk",
+    "pairing_strength": 0.68,
+    "reason": "Buttermilk helps digest the heavy biryani meal"
+  },
+  {
+    "pairing_id": "pair_155",
+    "item1": "Strawberry Milkshake",
+    "item2": "French Fries",
+    "pairing_strength": 0.75,
+    "reason": "Milkshake and fries is a timeless fast-food pairing"
+  },
+  {
+    "pairing_id": "pair_156",
+    "item1": "Maggi",
+    "item2": "Garlic Bread",
+    "pairing_strength": 0.65,
+    "reason": "Garlic bread complements a noodle snack meal"
+  },
+  {
+    "pairing_id": "pair_157",
+    "item1": "Margherita Pizza",
+    "item2": "Hot Chocolate",
+    "pairing_strength": 0.7,
+    "reason": "Hot chocolate with pizza on a cold rainy night",
+    "context": "rainy"
+  },
+  {
+    "pairing_id": "pair_158",
+    "item1": "Margherita Pizza",
+    "item2": "Cold Coffee",
+    "pairing_strength": 0.65,
+    "reason": "Cold coffee refreshes after a pizza lunch",
+    "context": "sunny"
+  },
+  {
+    "pairing_id": "pair_159",
+    "item1": "Margherita Pizza",
+    "item2": "Brownie",
+    "pairing_strength": 0.7,
+    "reason": "Warm brownie is the perfect late-night dessert after pizza"
+  }
+]
