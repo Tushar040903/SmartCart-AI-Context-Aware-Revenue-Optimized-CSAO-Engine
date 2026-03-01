@@ -123,9 +123,18 @@ class SmartCartEngine:
         # Apply weather context boosts to conversion probabilities
         weather_effects = temporal_ctx.get("weather_effects", {})
         boosted_items = set(weather_effects.get("boosted_items", []))
+        cold_drinks = {
+            "Coke 330ml", "Cold Coffee", "Mango Shake", "Mango Lassi",
+            "Fresh Lime Soda", "Watermelon Juice", "Lemon Iced Tea", "Lassi",
+        }
+        hot_drinks = {"Hot Coffee", "Hot Chocolate", "Masala Chai"}
         for i, c in enumerate(candidates):
             if c.get("name") in boosted_items:
                 probs[i] = min(0.95, probs[i] * 2.0 + 0.15)
+            elif weather in ("rainy", "cold") and c.get("name") in cold_drinks:
+                probs[i] = max(0.05, probs[i] * 0.5)
+            elif weather in ("sunny", "hot") and c.get("name") in hot_drinks:
+                probs[i] = max(0.05, probs[i] * 0.5)
 
         candidates = calculate_expected_revenue(candidates, probs)
 
@@ -134,6 +143,8 @@ class SmartCartEngine:
             candidates,
             cart_total=cart_context["cart_total"],
             cart_max_kpt=cart_context["max_kpt"],
+            hour=hour,
+            weather=weather,
         )
 
         # Layer 5: Guardrails
