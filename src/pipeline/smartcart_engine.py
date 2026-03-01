@@ -95,8 +95,8 @@ class SmartCartEngine:
             addon_price = c.get("price", 0)
             price_ratio = addon_price / cart_total if cart_total > 0 else 0
             ideal_ratio = 0.17
-            # Gaussian price fit consistent with multi_objective_ranker
-            price_fit = math.exp(-((price_ratio - ideal_ratio) ** 2) / (2 * 0.08 ** 2))
+            # Gaussian price fit consistent with multi_objective_ranker (sigma=0.20)
+            price_fit = math.exp(-((price_ratio - ideal_ratio) ** 2) / (2 * 0.20 ** 2))
 
             features_list.append({
                 "cart_total": cart_total,
@@ -119,6 +119,14 @@ class SmartCartEngine:
             })
 
         probs = self.conversion_model.predict_batch(features_list)
+
+        # Apply weather context boosts to conversion probabilities
+        weather_effects = temporal_ctx.get("weather_effects", {})
+        boosted_items = set(weather_effects.get("boosted_items", []))
+        for i, c in enumerate(candidates):
+            if c.get("name") in boosted_items:
+                probs[i] = min(0.95, probs[i] * 2.0 + 0.15)
+
         candidates = calculate_expected_revenue(candidates, probs)
 
         # Layer 4: Revenue-Optimized Ranking

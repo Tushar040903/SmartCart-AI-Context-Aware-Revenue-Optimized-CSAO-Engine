@@ -52,16 +52,30 @@ class KnowledgeGraphRecommender:
         """
         candidates = get_candidate_addons(self.G, cart_item_ids, max_candidates)
         
-        # Apply context boosts
+        # Apply context boosts and filter by context-tagged pairings
         if context:
             weather = context.get("weather", "sunny")
             weather_effects = context.get("weather_effects", {})
             boosted_items = weather_effects.get("boosted_items", [])
             
             for c in candidates:
+                # Boost weather-appropriate items
                 if c["name"] in boosted_items:
-                    c["score"] = min(1.0, c["score"] + 0.15)
+                    c["score"] = min(1.0, c["score"] + 0.20)
                     c["context_boosted"] = True
+                    c["reason"] = c.get("reason", "") + f" [Boosted for {weather} weather]"
+                
+                # Penalize weather-inappropriate items
+                hot_drinks = ["Hot Coffee", "Hot Chocolate", "Masala Chai"]
+                cold_drinks = ["Coke 330ml", "Cold Coffee", "Mango Shake", "Mango Lassi",
+                               "Fresh Lime Soda", "Watermelon Juice", "Lemon Iced Tea"]
+                
+                if weather in ("rainy", "cold"):
+                    if c["name"] in cold_drinks:
+                        c["score"] = max(0, c["score"] - 0.15)
+                elif weather in ("sunny", "hot"):
+                    if c["name"] in hot_drinks:
+                        c["score"] = max(0, c["score"] - 0.15)
         
         # Sort by score
         candidates.sort(key=lambda x: x["score"], reverse=True)

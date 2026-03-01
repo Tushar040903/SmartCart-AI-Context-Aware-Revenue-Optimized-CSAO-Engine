@@ -6,7 +6,7 @@ from typing import List, Dict, Any
 
 # Standard deviation for the Gaussian price-fit curve; controls acceptable
 # variance around the ideal price ratio (±8 percentage points at 1σ).
-PRICE_FIT_SIGMA = 0.08
+PRICE_FIT_SIGMA = 0.20
 
 # Default weights for the ranking formula
 DEFAULT_WEIGHTS = {
@@ -89,6 +89,8 @@ def rank_candidates(
         margin = candidate.get("margin_pct", 0.4)
         price = candidate.get("price", 0)
         kpt = candidate.get("kpt_minutes", 0)
+        # Include context/pairing score as additional signal (0.0-1.0)
+        context_score = candidate.get("score", 0.5)
 
         price_fit = calculate_price_fit(price, cart_total)
         diversity = calculate_diversity_score(candidate, already_shown)
@@ -100,6 +102,7 @@ def rank_candidates(
             + gamma * price_fit
             + delta * diversity
             - lam * kpt_penalty
+            + 0.15 * context_score  # context/pairing score boost
         )
 
         ranked.append({
