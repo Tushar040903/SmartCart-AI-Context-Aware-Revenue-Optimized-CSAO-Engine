@@ -1,6 +1,11 @@
 # 🛒 SmartCart AI — Context-Aware Revenue-Optimized CSAO Engine
 
-> **Built for Zomato Hackathon** — A food delivery add-on recommendation system that goes far beyond "frequently bought together" by incorporating ML-based conversion prediction, revenue optimization, kitchen prep time awareness, and contextual intelligence.
+![Hackathon](https://img.shields.io/badge/🏆_Hackathon_Submission-Track_2:_CSAO_Rail_Recommendation-orange?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
+![XGBoost](https://img.shields.io/badge/ML-XGBoost_AUC_0.97-green?style=for-the-badge)
+![Zero Delay](https://img.shields.io/badge/Delivery_Delay-0.0_min-brightgreen?style=for-the-badge)
+
+> **Built for Zomato Hackathon 2026 — Track 2: CSAO Rail Recommendation** — A food delivery add-on recommendation system that goes far beyond "frequently bought together" by incorporating ML-based conversion prediction, revenue optimization, kitchen prep time awareness, and contextual intelligence.
 
 ---
 
@@ -330,4 +335,14 @@ faker>=19.0.0
 
 ---
 
-*Built for Zomato Hackathon 2024 by SmartCart AI Team*
+## 📄 Documentation
+
+| Document | Description |
+|----------|-------------|
+| [📋 Technical Report](docs/SmartCart_AI_Technical_Report.md) | Full 12–15 page engineering report covering architecture, data strategy, all 5 key innovations, results, and business impact |
+| [🎤 Pitch Deck Content](docs/SmartCart_AI_Pitch_Deck.md) | 12-slide pitch deck with speaker notes (transfer to Google Slides / Canva) |
+| [📄 One-Pager Summary](docs/one_pager_summary.md) | Single-page executive summary for quick sharing |
+
+---
+
+*Built for Zomato Hackathon 2026 — Track 2: CSAO Rail Recommendation | Author: Tushar*
