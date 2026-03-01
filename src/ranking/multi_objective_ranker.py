@@ -47,11 +47,68 @@ def calculate_diversity_score(
     return 0.2
 
 
+def _temporal_boost(candidate: Dict[str, Any], hour: int, weather: str) -> float:
+    """
+    Compute a temporal boost/penalty based on time of day and weather.
+
+    Positive values push the item up; negative values push it down.
+    """
+    boost = 0.0
+    name = candidate.get("name", "")
+
+    hot_beverages = {
+        "Masala Chai", "Hot Chocolate", "Hot Coffee",
+        "Veg Soup", "Tomato Soup", "Chicken Soup",
+    }
+    cold_beverages = {
+        "Cold Coffee", "Mango Lassi", "Fresh Lime Soda", "Coke 330ml",
+        "Lassi", "Watermelon Juice", "Lemon Iced Tea", "Mango Shake",
+    }
+
+    # Weather-based boosts / penalties
+    if weather in ("rainy", "cold"):
+        if name in hot_beverages:
+            boost += 0.25
+        if name in cold_beverages:
+            boost -= 0.25
+    elif weather in ("sunny", "hot"):
+        if name in cold_beverages:
+            boost += 0.25
+        if name in hot_beverages:
+            boost -= 0.25
+
+    # Hour-based boosts / penalties
+    if hour >= 22 or hour < 6:  # late night
+        comfort_items = {
+            "Brownie", "Chocolate Brownie", "Cheese Fries",
+            "Cheesy Fries", "French Fries",
+        }
+        salad_items = {"Green Salad", "Caesar Salad", "Raita", "Cucumber Salad"}
+        if name in comfort_items:
+            boost += 0.20
+        if name in salad_items:
+            boost -= 0.20
+    elif 11 <= hour < 14:  # lunch
+        light_sides = {"Green Salad", "Caesar Salad", "Raita", "Cucumber Salad"}
+        heavy_desserts = {
+            "Brownie", "Chocolate Brownie", "Gulab Jamun",
+            "Ice Cream Cup", "Kulfi",
+        }
+        if name in light_sides:
+            boost += 0.15
+        if name in heavy_desserts:
+            boost -= 0.10
+
+    return boost
+
+
 def rank_candidates(
     candidates: List[Dict[str, Any]],
     cart_total: float,
     cart_max_kpt: int,
     weights: Dict[str, float] = None,
+    hour: int = 19,
+    weather: str = "sunny",
 ) -> List[Dict[str, Any]]:
     """
     Apply the multi-objective ranking formula:
@@ -95,6 +152,7 @@ def rank_candidates(
         price_fit = calculate_price_fit(price, cart_total)
         diversity = calculate_diversity_score(candidate, already_shown)
         kpt_penalty = max(0, kpt - cart_max_kpt)
+        temporal = _temporal_boost(candidate, hour, weather)
 
         rank_score = (
             alpha * prob
@@ -103,6 +161,7 @@ def rank_candidates(
             + delta * diversity
             - lam * kpt_penalty
             + 0.15 * context_score  # context/pairing score boost
+            + temporal               # time/weather boost
         )
 
         ranked.append({

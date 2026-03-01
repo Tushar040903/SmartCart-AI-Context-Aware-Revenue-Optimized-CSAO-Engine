@@ -48,18 +48,19 @@ def render_cart_widget() -> List[Dict[str, Any]]:
     # Quick demo scenarios
     st.markdown("**Quick Scenarios:**")
     col1, col2, col3, col4 = st.columns(4)
-    
+
     scenario_items = {
-        "Scenario 1\n(Biryani Solo)": ["Chicken Biryani"],
-        "Scenario 2\n(Group Order)": ["Veg Burger", "Chicken Burger", "Paneer Butter Masala", "Veg Hakka Noodles"],
-        "Scenario 3\n(ETA Savior)": ["Maggi"],
-        "Scenario 4\n(Pizza Context)": ["Margherita Pizza"],
+        "Scenario 1\n(Biryani Solo)": [("Chicken Biryani", 1)],
+        "Scenario 2\n(Group Order)": [("Chicken Burger", 4)],
+        "Scenario 3\n(ETA Savior)": [("Maggi", 1)],
+        "Scenario 4\n(Pizza Context)": [("Margherita Pizza", 1)],
     }
-    
+
     cols = [col1, col2, col3, col4]
     for i, (label, items) in enumerate(scenario_items.items()):
         if cols[i].button(label, key=f"scenario_{i}"):
-            st.session_state["selected_item_names"] = items
+            st.session_state["selected_item_names"] = [name for name, _ in items]
+            st.session_state["item_quantities"] = {name: qty for name, qty in items}
     
     # Multi-select for cart items
     all_main_course = [m for m in menu if m["category"] == "main_course"]
@@ -85,15 +86,32 @@ def render_cart_widget() -> List[Dict[str, Any]]:
         default=valid_defaults,
         key="cart_items",
     )
-    
+
+    # Quantity inputs for each selected item
+    quantities = {}
+    saved_qtys = st.session_state.get("item_quantities", {})
+    for name in selected_names:
+        default_qty = saved_qtys.get(name, 1)
+        quantities[name] = st.number_input(
+            f"Qty: {name}",
+            min_value=1,
+            max_value=10,
+            value=int(default_qty),
+            key=f"qty_{name}",
+        )
+
     for name in selected_names:
         if name in item_options:
-            selected_items.append(item_options[name])
-    
+            qty = quantities.get(name, 1)
+            for _ in range(qty):
+                selected_items.append(item_options[name])
+
     # Show cart summary
     if selected_items:
+        qty_display = ", ".join(f"{quantities.get(n, 1)}× {n}" for n in selected_names)
         total = sum(item["price"] for item in selected_items)
         max_kpt = max(item["kpt_minutes"] for item in selected_items)
-        st.markdown(f"**Cart Total:** ₹{total} | **Items:** {len(selected_items)} | **Max KPT:** {max_kpt} min")
+        st.markdown(f"**Cart:** {qty_display}")
+        st.markdown(f"**Total:** ₹{total} | **Items:** {len(selected_items)} | **Max KPT:** {max_kpt} min")
     
     return selected_items, restaurant_type
