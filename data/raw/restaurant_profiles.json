@@ -1,0 +1,222 @@
+[
+  {
+    "restaurant_id": "rest_001",
+    "name": "Biryani House",
+    "type": "Casual Dining",
+    "cuisines_served": ["North Indian", "Mughlai"],
+    "avg_kpt": 22,
+    "addon_potential": "high",
+    "rating": 4.5,
+    "popular_items": ["Chicken Biryani", "Mutton Biryani", "Veg Biryani", "Raita", "Mirchi Ka Salan", "Gulab Jamun"]
+  },
+  {
+    "restaurant_id": "rest_002",
+    "name": "Pizza Palace",
+    "type": "Casual Dining",
+    "cuisines_served": ["Italian", "Continental"],
+    "avg_kpt": 14,
+    "addon_potential": "high",
+    "rating": 4.2,
+    "popular_items": ["Margherita Pizza", "Pepperoni Pizza", "Cheese Burst Pizza", "Garlic Bread", "Tiramisu", "Coke 330ml"]
+  },
+  {
+    "restaurant_id": "rest_003",
+    "name": "Dosa Corner",
+    "type": "QSR",
+    "cuisines_served": ["South Indian"],
+    "avg_kpt": 8,
+    "addon_potential": "medium",
+    "rating": 4.3,
+    "popular_items": ["Masala Dosa", "Paneer Dosa", "Idli Sambar", "Filter Coffee", "Coconut Chutney", "Sambar"]
+  },
+  {
+    "restaurant_id": "rest_004",
+    "name": "Burger Barn",
+    "type": "QSR",
+    "cuisines_served": ["Continental", "Street Food"],
+    "avg_kpt": 8,
+    "addon_potential": "high",
+    "rating": 4.0,
+    "popular_items": ["Chicken Burger", "Veg Burger", "French Fries", "Onion Rings", "Coke 330ml", "Chocolate Milkshake"]
+  },
+  {
+    "restaurant_id": "rest_005",
+    "name": "Spice Garden",
+    "type": "Fine Dining",
+    "cuisines_served": ["North Indian", "Mughlai", "Continental"],
+    "avg_kpt": 20,
+    "addon_potential": "high",
+    "rating": 4.7,
+    "popular_items": ["Butter Chicken", "Paneer Butter Masala", "Tandoori Chicken", "Chicken Tikka Masala", "Dal Makhani", "Naan", "Butter Naan"]
+  },
+  {
+    "restaurant_id": "rest_006",
+    "name": "Wok & Roll",
+    "type": "Casual Dining",
+    "cuisines_served": ["Chinese", "Street Food"],
+    "avg_kpt": 10,
+    "addon_potential": "medium",
+    "rating": 4.1,
+    "popular_items": ["Veg Hakka Noodles", "Chicken Fried Rice", "Manchurian", "Spring Rolls", "Chilli Paneer", "Chicken 65"]
+  },
+  {
+    "restaurant_id": "rest_007",
+    "name": "Chai & Bites",
+    "type": "Cafe",
+    "cuisines_served": ["Beverages", "Street Food", "Continental"],
+    "avg_kpt": 5,
+    "addon_potential": "medium",
+    "rating": 4.4,
+    "popular_items": ["Masala Chai", "Samosa", "Maggi", "Cold Coffee", "Brownie", "Cheesecake Slice"]
+  },
+  {
+    "restaurant_id": "rest_008",
+    "name": "The Punjabi Dhaba",
+    "type": "Casual Dining",
+    "cuisines_served": ["North Indian"],
+    "avg_kpt": 12,
+    "addon_potential": "medium",
+    "rating": 4.3,
+    "popular_items": ["Aloo Paratha", "Methi Paratha", "Dal Makhani", "Chole Bhature", "Lassi", "Pickle"]
+  },
+  {
+    "restaurant_id": "rest_009",
+    "name": "Mumbai Street Eats",
+    "type": "QSR",
+    "cuisines_served": ["Street Food", "North Indian"],
+    "avg_kpt": 5,
+    "addon_potential": "medium",
+    "rating": 4.2,
+    "popular_items": ["Pav Bhaji", "Pani Puri", "Dahi Puri", "Vada Pav", "Masala Chai", "Fresh Lime Soda"]
+  },
+  {
+    "restaurant_id": "rest_010",
+    "name": "Cloud Curry",
+    "type": "Cloud Kitchen",
+    "cuisines_served": ["North Indian", "South Indian"],
+    "avg_kpt": 18,
+    "addon_potential": "low",
+    "rating": 3.9,
+    "popular_items": ["Chicken Biryani", "Palak Paneer", "Dal Makhani", "Naan", "Steamed Rice", "Raita"]
+  },
+  {
+    "restaurant_id": "rest_011",
+    "name": "The Pasta Place",
+    "type": "Casual Dining",
+    "cuisines_served": ["Italian", "Continental"],
+    "avg_kpt": 12,
+    "addon_potential": "high",
+    "rating": 4.2,
+    "popular_items": ["Pasta Alfredo", "Margherita Pizza", "Bruschetta", "Garlic Bread", "Tiramisu", "Lemon Iced Tea"]
+  },
+  {
+    "restaurant_id": "rest_012",
+    "name": "Seafood Shack",
+    "type": "Casual Dining",
+    "cuisines_served": ["Continental", "North Indian"],
+    "avg_kpt": 18,
+    "addon_potential": "medium",
+    "rating": 4.1,
+    "popular_items": ["Prawn Curry", "Fish and Chips", "Fish Tikka", "Steamed Rice", "Pita Bread", "Sprite 330ml"]
+  },
+  {
+    "restaurant_id": "rest_013",
+    "name": "Sweet Tooth",
+    "type": "Cafe",
+    "cuisines_served": ["Desserts", "Beverages"],
+    "avg_kpt": 3,
+    "addon_potential": "high",
+    "rating": 4.5,
+    "popular_items": ["Chocolate Lava Cake", "Waffles", "Cheesecake Slice", "Brownie", "Cold Coffee", "Hot Chocolate", "Tiramisu"]
+  },
+  {
+    "restaurant_id": "rest_014",
+    "name": "Tikka Town",
+    "type": "Casual Dining",
+    "cuisines_served": ["North Indian"],
+    "avg_kpt": 14,
+    "addon_potential": "high",
+    "rating": 4.4,
+    "popular_items": ["Paneer Tikka", "Chicken Tikka Masala", "Tandoori Chicken", "Chicken Seekh Kabab", "Butter Naan", "Lassi"]
+  },
+  {
+    "restaurant_id": "rest_015",
+    "name": "Noodle Bar",
+    "type": "QSR",
+    "cuisines_served": ["Chinese", "Street Food"],
+    "avg_kpt": 8,
+    "addon_potential": "medium",
+    "rating": 3.8,
+    "popular_items": ["Veg Hakka Noodles", "Chicken Noodles", "Egg Fried Rice", "Veg Manchow Soup", "Spring Rolls", "Coke 330ml"]
+  },
+  {
+    "restaurant_id": "rest_016",
+    "name": "The Grand Kitchen",
+    "type": "Fine Dining",
+    "cuisines_served": ["North Indian", "Continental", "Italian"],
+    "avg_kpt": 20,
+    "addon_potential": "high",
+    "rating": 4.8,
+    "popular_items": ["Chicken Tikka Masala", "Butter Chicken", "Margherita Pizza", "Pasta Alfredo", "Tiramisu", "Chocolate Lava Cake"]
+  },
+  {
+    "restaurant_id": "rest_017",
+    "name": "Quick Bites Express",
+    "type": "Cloud Kitchen",
+    "cuisines_served": ["Continental", "Chinese", "Street Food"],
+    "avg_kpt": 10,
+    "addon_potential": "low",
+    "rating": 3.7,
+    "popular_items": ["Veg Burger", "Chicken Burger", "French Fries", "Veg Fried Rice", "Manchurian", "Coke 330ml"]
+  },
+  {
+    "restaurant_id": "rest_018",
+    "name": "Udupi Delights",
+    "type": "Casual Dining",
+    "cuisines_served": ["South Indian"],
+    "avg_kpt": 8,
+    "addon_potential": "medium",
+    "rating": 4.4,
+    "popular_items": ["Masala Dosa", "Idli Sambar", "Paneer Dosa", "Coconut Chutney", "Sambar", "Filter Coffee", "Buttermilk"]
+  },
+  {
+    "restaurant_id": "rest_019",
+    "name": "Fusion Fiesta",
+    "type": "Casual Dining",
+    "cuisines_served": ["North Indian", "Chinese", "Continental"],
+    "avg_kpt": 15,
+    "addon_potential": "high",
+    "rating": 4.0,
+    "popular_items": ["Chilli Paneer", "Chicken Wrap", "Chicken Kathi Roll", "Manchurian", "Veg Hakka Noodles", "Mojito"]
+  },
+  {
+    "restaurant_id": "rest_020",
+    "name": "Dessert Den",
+    "type": "Cafe",
+    "cuisines_served": ["Desserts", "North Indian", "Beverages"],
+    "avg_kpt": 4,
+    "addon_potential": "high",
+    "rating": 4.6,
+    "popular_items": ["Gulab Jamun", "Rasmalai", "Kulfi", "Jalebi", "Mango Kulfi", "Lassi", "Sweet Lassi"]
+  },
+  {
+    "restaurant_id": "rest_021",
+    "name": "Wing It",
+    "type": "QSR",
+    "cuisines_served": ["Continental"],
+    "avg_kpt": 10,
+    "addon_potential": "high",
+    "rating": 4.1,
+    "popular_items": ["Chicken Wings", "French Fries", "Nachos", "Onion Rings", "Coke 330ml", "Red Bull"]
+  },
+  {
+    "restaurant_id": "rest_022",
+    "name": "Heritage Biryani Co.",
+    "type": "Fine Dining",
+    "cuisines_served": ["North Indian", "Mughlai"],
+    "avg_kpt": 25,
+    "addon_potential": "high",
+    "rating": 4.9,
+    "popular_items": ["Mutton Biryani", "Chicken Biryani", "Tandoori Chicken", "Raita", "Mirchi Ka Salan", "Gulab Jamun", "Rasmalai"]
+  }
+]
