@@ -13,6 +13,10 @@ import json
 import argparse
 from pathlib import Path
 
+# Ensure UTF-8 output encoding for emojis on all consoles
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 project_root = Path(__file__).parent
 sys.path.insert(0, str(project_root))
 

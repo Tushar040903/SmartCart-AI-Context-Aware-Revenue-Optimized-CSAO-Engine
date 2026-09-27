@@ -43,7 +43,8 @@ Python 3.10 · XGBoost · NetworkX · Streamlit · Pandas · NumPy · Plotly · 
 
 ## Project
 
-**GitHub**: `github.com/Tushar040903/SmartCart-AI-Context-Aware-Revenue-Optimized-CSAO-Engine`
+**GitHub**: `github.com/Tushar040903/SmartCart-AI-Context-Aware-Revenue-Optimized-CSAO-Engine`  
+**Live Demo**: [https://tushar040903-smartcart-ai.streamlit.app/](https://tushar040903-smartcart-ai.streamlit.app/)
 
 Fully working: Streamlit demo app · trained ML model · CLI pipeline · 5 research notebooks
 

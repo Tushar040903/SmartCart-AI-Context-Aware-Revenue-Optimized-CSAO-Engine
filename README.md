@@ -1,11 +1,14 @@
 # 🛒 SmartCart AI — Context-Aware Revenue-Optimized CSAO Engine
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Streamlit_Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tushar040903-smartcart-ai.streamlit.app/)
 ![Hackathon](https://img.shields.io/badge/🏆_Hackathon_Submission-Track_2:_CSAO_Rail_Recommendation-orange?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
 ![XGBoost](https://img.shields.io/badge/ML-XGBoost_AUC_0.97-green?style=for-the-badge)
 ![Zero Delay](https://img.shields.io/badge/Delivery_Delay-0.0_min-brightgreen?style=for-the-badge)
 
 > **Built for Zomato Hackathon 2026 — Track 2: CSAO Rail Recommendation** — A food delivery add-on recommendation system that goes far beyond "frequently bought together" by incorporating ML-based conversion prediction, revenue optimization, kitchen prep time awareness, and contextual intelligence.
+>
+> 🌐 **Live Interactive App:** [https://tushar040903-smartcart-ai.streamlit.app/](https://tushar040903-smartcart-ai.streamlit.app/)
 
 ---
 
@@ -117,6 +120,12 @@ python run_pipeline.py --cart "Veg Burger,Chicken Burger,Paneer Butter Masala" -
 ```
 
 ### Launch the Streamlit App
+
+#### 🌐 Live Web App (Streamlit Cloud)
+Try the interactive recommendation engine directly in your browser:
+👉 **[Open Live Demo](https://tushar040903-smartcart-ai.streamlit.app/)**
+
+#### 💻 Run Locally
 ```bash
 streamlit run app/streamlit_app.py
 ```
